@@ -10,4 +10,77 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-image: url(../../public/images/brickbackground.jpg);
+}
+
+.introtext {
+  color: #877e7d;
+}
+
+.main {
+  //display: flex;
+  //text-align: justify;
+  align-items: center;
+  margin: auto;
+  max-width: 960px;
+}
+.intropic {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.stuffilike {
+  background-color: #7a2f2c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.5em;
+  background-image: url(../../public/images/starscape.jpg);
+  color: red;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+.photosofdanny {
+  display: flex;
+  color: pink;
+  justify-content: space-around;
+  background-color: #717477;
+  padding-top: 15px;
+  border-radius: 0.5em;
+  div.img {
+    height: 300px;
+    width: 300px;
+  }
+  div.one, div.two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+  }
+  .one .img {
+    background-image: url(../../public/images/fifthave.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  .two .img {
+    background-image: url(../../public/images/marbles.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.copyright {
+  text-align: center;
+  color: pink;
 }
