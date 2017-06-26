@@ -8,18 +8,18 @@ class App extends Component {
         <h2>I'm Danny Shenker, a junior front end developer at The Iron Yard</h2>
       </div>
       <p>{this.state.bio}</p>
-      <div>
+      {/* <div>
         <img className='intropic' src={this.state.profile} />
-      </div>
+      </div> */}
       <div className='paragraphsaboutstuff' />
-      <div className='photosofdanny'>
+      <div className='photosofprojects'>
         <div className='one'>
-          <div className='img' />
-          <p>I've been described as charismatic, debonair, physically intimidating, and 'Stop doing this, Danny.  I don't really even like you'</p>
+          <a href='https://github.com/dannyoceanxo/jabberdexicon'><div className='img' /></a>
+          <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
         </div>
         <div className='two'>
-          <div className='img' />
-          <p>If you'd like to hire me to lift some weights, eat some donuts, or otherwise enjoy myself I have pretty reasonable rates</p>
+          <a href='https://github.com/dannyoceanxo/roadtoregionals'><div className='img' /></a>
+          <p>For my final project at The Iron Yard I created the Road to Regionals app.  This takes your scores from the 2017 CrossFit Open and guides you to making it to next year's Regionals with suggested workouts and articles.</p>
         </div>
       </div>
       <footer>
@@ -37,7 +37,7 @@ class App extends Component {
           <a href='https://github.com/dannyoceanxo'><img src='images/octocat.png' height='205px' width='250px' /></a>
         </div>
         <div className='copyright'>
-          <h5>Copyright 2017, Danny Shenker.  Built with ambivalence at the Iron Yard</h5>
+          <h5>Copyright 2017, Danny Shenker.  Built with ambivalence at The Iron Yard</h5>
         </div>
       </footer>
     </div>

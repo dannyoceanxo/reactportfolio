@@ -1,4 +1,5 @@
 @import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -11,6 +12,7 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
   background-image: url(../../public/images/brickbackground.jpg);
+  font-family: Merriweather;
 }
 
 .introtext {
@@ -46,17 +48,17 @@ body {
   align-items: center;
   justify-content: space-around;
   border-radius: 0.5em;
-  background-image: url(../../public/images/starscape.jpg);
-  color: red;
+  background-color: #505254;
+  color: #fff;
   padding-top: 1em;
   padding-bottom: 1em;
   font-size: 2em;
 }
-.photosofdanny {
+.photosofprojects {
   display: flex;
-  color: pink;
+  color: #fff;
   justify-content: space-around;
-  background-color: #717477;
+  background-color: #505254;
   padding-top: 15px;
   border-radius: 0.5em;
   div.img {
@@ -70,12 +72,12 @@ body {
     width: 300px;
   }
   .one .img {
-    background-image: url(../../public/images/fifthave.jpeg);
+    background-image: url(../../public/images/jabberdexiconscreenshot.png);
     background-size: cover;
     background-position: center;
   }
   .two .img {
-    background-image: url(../../public/images/marbles.jpeg);
+    background-image: url(../../public/images/roadtoregionalsscreenshot.png);
     background-size: cover;
     background-position: center;
   }
