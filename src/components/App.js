@@ -5,17 +5,20 @@ class App extends Component {
     return <div className='main'>
       <div className='introtext'>
         <h1>Hey, what's up?</h1>
-        <h2>I'm Danny Shenker, a junior front end developer at The Iron Yard</h2>
+        <h2>I'm Danny Shenker, a junior front end developer who recently graduated from The Iron Yard</h2>
       </div>
-      <p>{this.state.bio}</p>
+      {/* <p>{this.state.bio}</p> */}
       {/* <div>
         <img className='intropic' src={this.state.profile} />
       </div> */}
-      <div className='paragraphsaboutstuff' />
       <div className='photosofprojects'>
         <div className='one'>
           <a href='https://github.com/dannyoceanxo/jabberdexicon'><div className='img' /></a>
           <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
+        </div>
+        <div className='chuckNorris'>
+          <img src='images/chucknorris.JPG' height='300px' width='280px' />
+          <p>Just hanging out with my best friend Chuck Norris</p>
         </div>
         <div className='two'>
           <a href='https://github.com/dannyoceanxo/roadtoregionals'><div className='img' /></a>
@@ -23,21 +26,25 @@ class App extends Component {
         </div>
       </div>
       <footer>
-        <div className='stuffilike'>
-          <h4>Check out some stuff I like:</h4>
-          <a href='http://noeql.com'><img src='images/noeql.png' height='150px' width='300px' /></a>
-          <a href='http://minidoughnutfactory.com'><img src='images/minidonutfactory.png' /></a>
-          <a href='http://cigarcitycrossfit.com'><img src='images/cigarcity.png' height='205px' width='215px' /></a>
-          <a href='http://crossfit813.com'><img src='images/cf813.jpg' height='225px' width='215px' /></a>
+        <div className='completedprojects'>
+          <h4>Check out some other projects I've worked on:</h4>
+          <div className='snowman'>
+            <a href='https://github.com/dannyoceanxo/snowman'><img src='images/snowmanscreenshot.png' height='150px' width='300px' /></a>
+          </div>
+          <div className='colorpicker'>
+            <a href='https://github.com/dannyoceanxo/sassy-color-picker'><img src='images/colorpickerscreenshot.png' height='300px' width='265px' /></a>
+          </div>
+          <div className='shoutbox'>
+            <a href='https://github.com/dannyoceanxo/shoutbox'><img src='images/shoutboxscreenshot.png' height='205px' width='215px' /></a>
+          </div>
+          <div className='roshambo'>
+            <a href='https://github.com/dannyoceanxo/roshambo'><img src='images/roshamboscreenshot.png' height='225px' width='215px' /></a>
+          </div>
         </div>
-        <div className='socialmedia'>
-          <h4>Get @ me</h4>
-          <a href='https://www.instagram.com/dannyoceanxo'><img src='images/instagram.jpeg' border-radius='.5em' /></a>
-          <a href='https://www.nocliqueny.com'><img src='images/noclique.jpg' height='205px' width='245px' /></a>
-          <a href='https://github.com/dannyoceanxo'><img src='images/octocat.png' height='205px' width='250px' /></a>
-        </div>
-        <div className='copyright'>
-          <h5>Copyright 2017, Danny Shenker.  Built with ambivalence at The Iron Yard</h5>
+        <div className='copyrightSocialMedia'>
+          <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
+          <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
+          <h5>Copyright 2017, Danny Shenker.  Built with &hearts; at The Iron Yard</h5>
         </div>
       </footer>
     </div>

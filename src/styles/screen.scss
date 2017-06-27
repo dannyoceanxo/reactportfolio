@@ -1,5 +1,5 @@
 @import 'utility';
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Spectral');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -9,14 +9,14 @@ html {
 }
 
 body {
-  margin: 0;
+  //margin: 0;
   font: $base-text-size / 1 $base-font-family;
   background-image: url(../../public/images/brickbackground.jpg);
-  font-family: Merriweather;
+  font-family: Spectral;
 }
 
 .introtext {
-  color: #877e7d;
+  color: pink;
 }
 
 .main {
@@ -24,7 +24,7 @@ body {
   //text-align: justify;
   align-items: center;
   margin: auto;
-  max-width: 960px;
+  max-width: 1200px;
 }
 .intropic {
   height: 100px;
@@ -32,10 +32,10 @@ body {
   display: flex;
   justify-content: center;
 }
-.stuffilike {
-  background-color: #7a2f2c;
+.completedprojects {
+  background-color: #a4bab7;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-radius: 1em;
   padding-top: 15px;
@@ -43,17 +43,35 @@ body {
   padding-right: 1em;
   padding-left: 1em;
 }
-.socialmedia {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-radius: 0.5em;
-  background-color: #505254;
-  color: #fff;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 2em;
+.snowman {
+  padding-left: 8px;
+  padding-right: 8px;
 }
+.colorpicker {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.shoutbox {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.roshambo {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+//.socialmedia {
+//  display: flex;
+//  align-items: center;
+//  text-align: center;
+//  justify-content: space-around;
+  //border-radius: 0.5em;
+  //background-color: #505254;
+  //color: #fff;
+  //padding-top: 1em;
+  //padding-bottom: 1em;
+  //font-size: 2em;
+//}
+
 .photosofprojects {
   display: flex;
   color: #fff;
@@ -65,7 +83,7 @@ body {
     height: 300px;
     width: 300px;
   }
-  div.one, div.two {
+  div.one, div.two, div.chuckNorris {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -82,7 +100,8 @@ body {
     background-position: center;
   }
 }
-.copyright {
+.copyrightSocialMedia {
+  padding-top: 10px;
   text-align: center;
   color: pink;
 }
