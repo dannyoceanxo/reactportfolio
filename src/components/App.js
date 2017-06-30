@@ -13,15 +13,15 @@ class App extends Component {
       </div> */}
       <div className='photosofprojects'>
         <div className='one'>
-          <a href='https://github.com/dannyoceanxo/jabberdexicon'><div className='img' /></a>
+          <a href='http://jabberdexicon.dannyoceanxo.surge.sh'><div className='img' /></a>
           <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
         </div>
         <div className='chuckNorris'>
-          <img src='images/chucknorris.JPG' height='300px' width='280px' />
+          <a href='https://github.com/dannyoceanxo'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
           <p>Just hanging out with my best friend Chuck Norris</p>
         </div>
         <div className='two'>
-          <a href='https://github.com/dannyoceanxo/roadtoregionals'><div className='img' /></a>
+          <a href='http://roadtoregionals.dannyoceanxo.surge.sh'><div className='img' /></a>
           <p>For my final project at The Iron Yard I created the Road to Regionals app.  This takes your scores from the 2017 CrossFit Open and guides you to making it to next year's Regionals with suggested workouts and articles.</p>
         </div>
       </div>
@@ -29,13 +29,13 @@ class App extends Component {
         <div className='completedprojects'>
           <h4>Check out some other projects I've worked on:</h4>
           <div className='snowman'>
-            <a href='https://github.com/dannyoceanxo/snowman'><img src='images/snowmanscreenshot.png' height='150px' width='300px' /></a>
+            <a href='http://snowman.dannyoceanxo.surge.sh'><img src='images/snowmanscreenshot.png' height='150px' width='300px' /></a>
           </div>
           <div className='colorpicker'>
-            <a href='https://github.com/dannyoceanxo/sassy-color-picker'><img src='images/colorpickerscreenshot.png' height='300px' width='265px' /></a>
+            <a href='http://sassy-color-picker.dannyoceanxo.surge.sh'><img src='images/colorpickerscreenshot.png' height='300px' width='265px' /></a>
           </div>
           <div className='shoutbox'>
-            <a href='https://github.com/dannyoceanxo/shoutbox'><img src='images/shoutboxscreenshot.png' height='205px' width='215px' /></a>
+            <a href='http://shoutbox.dannyshenker.surge.sh'><img src='images/shoutboxscreenshot.png' height='205px' width='215px' /></a>
           </div>
           <div className='roshambo'>
             <a href='https://github.com/dannyoceanxo/roshambo'><img src='images/roshamboscreenshot.png' height='225px' width='215px' /></a>
