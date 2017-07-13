@@ -13,7 +13,7 @@ class App extends Component {
       </div> */}
       <div className='photosofprojects'>
         <div className='one'>
-          <a href='https://github.com/dannyoceanxo/jabberdexicon'><div className='img' /></a>
+          <a href='http://jabberdexicon.dannyshenker.surge.sh/'><div className='img' /></a>
           <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
         </div>
         <div className='chuckNorris'>
@@ -21,7 +21,7 @@ class App extends Component {
           <p>Just hanging out with my best friend Chuck Norris</p>
         </div>
         <div className='two'>
-          <a href='https://github.com/dannyoceanxo/roadtoregionals'><div className='img' /></a>
+          <a href='http://roadtoregionals.dannyshenker.surge.sh/'><div className='img' /></a>
           <p>For my final project at The Iron Yard I created the Road to Regionals app.  This takes your scores from the 2017 CrossFit Open and guides you to making it to next year's Regionals with suggested workouts and articles.</p>
         </div>
       </div>
@@ -32,18 +32,21 @@ class App extends Component {
             <a href='http://snowman.dannyoceanxo.surge.sh'><img src='images/snowmanscreenshot.png' height='150px' width='300px' /></a>
           </div>
           <div className='colorpicker'>
-            <a href='https://github.com/dannyoceanxo/sassy-color-picker'><img src='images/colorpickerscreenshot.png' height='300px' width='265px' /></a>
+            <a href='http://sassy-color-picker.dannyshenker.surge.sh/'><img src='images/colorpickerscreenshot.png' height='300px' width='265px' /></a>
           </div>
           <div className='shoutbox'>
             <a href='http://shoutbox.dannyshenker.surge.sh'><img src='images/shoutboxscreenshot.png' height='205px' width='215px' /></a>
           </div>
           <div className='roshambo'>
-            <a href='https://github.com/dannyoceanxo/one-list'><img src='images/onelist.png' height='225px' width='215px' /></a>
+            <a href='http://one-list.dannyshenker.surge.sh/'><img src='images/onelist.png' height='225px' width='215px' /></a>
           </div>
         </div>
-        <div className='skills'>
+        {/* <div className='design'>
+          <h1>No Clique</h1>
+        </div> */}
+        {/* <div className='skills'>
           <h4>HTML, CSS, JavaScript, React, MobX</h4>
-        </div>
+        </div> */}
         <div className='copyrightSocialMedia'>
           <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
           <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
