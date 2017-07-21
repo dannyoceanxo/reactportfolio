@@ -18,7 +18,7 @@ class App extends Component {
         </div>
         <div className='chuckNorris'>
           <a href='https://github.com/dannyoceanxo'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
-          <p>Just hanging out with my best friend Chuck Norris</p>
+          <p>Just hanging out with my best friend Chuck Norris.  Click on his nose to check out my Github profile</p>
         </div>
         <div className='two'>
           <a href='http://roadtoregionals.dannyshenker.surge.sh/'><div className='img' /></a>
@@ -43,6 +43,8 @@ class App extends Component {
         </div>
         {/* <div className='design'>
           <h1>No Clique</h1>
+          <div className='noCliqueDesigns'>
+          <h2>No Clique is a project I created with two of my childhood friends</h2>
         </div> */}
         {/* <div className='skills'>
           <h4>HTML, CSS, JavaScript, React, MobX</h4>
