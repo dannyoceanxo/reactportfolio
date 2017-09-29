@@ -17,8 +17,8 @@ class App extends Component {
           <p>This is the "Jabberdexicon," a glossary of terms we created for new programmers to get acquainted with some of our jargon.</p>
         </div>
         <div className='chuckNorris'>
-          <a href='https://github.com/dannyoceanxo'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
-          <p>Just hanging out with my best friend Chuck Norris.  Click on his nose to check out my Github profile</p>
+          <a href='https://docs.google.com/document/d/e/2PACX-1vRULKZqtYPPuoSeRw-Avx3iB6G_yfnYQTSm3teCcquAfdvkC2bCvn0cUmFhI1nEBB-Z72X-FlPOIFKw/pub'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
+          <p>Just hanging out with my best friend Chuck Norris.  Click on his nose to check out my resume</p>
         </div>
         <div className='two'>
           <a href='http://roadtoregionals.dannyshenker.surge.sh/'><div className='img' /></a>
@@ -52,6 +52,7 @@ class App extends Component {
         <div className='copyrightSocialMedia'>
           <a href='https://www.instagram.com/dannyoceanxo/'><img src='/images/instagram2.png' height='50px' width='50px' /></a>
           <a href='https://github.com/dannyoceanxo/'><img src='/images/waltercat.png' height='50px' width='50px' /></a>
+          <a href='mailto:mrdanielshenker@gmail.com'><img src='/images/emailicon3.png' height='50px' width='50px' /></a>
           <h5>Copyright 2017, Danny Shenker.  Built with &hearts; at The Iron Yard</h5>
         </div>
       </footer>

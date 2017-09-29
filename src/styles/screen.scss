@@ -100,6 +100,18 @@ body {
     background-position: center;
   }
 }
+.contactMe {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  background-color: #505254;
+  padding-top: 15px;
+  border-radius: 0.5em;
+  align-items: center;
+}
+.emailMe {
+  align-items: center;
+}
 .copyrightSocialMedia {
   padding-top: 10px;
   text-align: center;
