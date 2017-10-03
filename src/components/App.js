@@ -41,11 +41,6 @@ class App extends Component {
             <a href='http://one-list.dannyshenker.surge.sh/'><img src='images/onelist.png' height='225px' width='215px' /></a>
           </div>
         </div>
-        {/* <div className='design'>
-          <h1>No Clique</h1>
-          <div className='noCliqueDesigns'>
-          <h2>No Clique is a project I created with two of my childhood friends</h2>
-        </div> */}
         {/* <div className='skills'>
           <h4>HTML, CSS, JavaScript, React, MobX</h4>
         </div> */}
