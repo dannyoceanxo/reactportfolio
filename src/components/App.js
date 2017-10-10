@@ -18,7 +18,7 @@ class App extends Component {
         </div>
         <div className='chuckNorris'>
           <a href='https://docs.google.com/document/d/e/2PACX-1vRULKZqtYPPuoSeRw-Avx3iB6G_yfnYQTSm3teCcquAfdvkC2bCvn0cUmFhI1nEBB-Z72X-FlPOIFKw/pub'><img src='images/chucknorris.JPG' height='300px' width='280px' /></a>
-          <p>Just hanging out with my best friend Chuck Norris.  Click on his nose to check out my resume</p>
+          <p>Hanging out with my best friend Chuck Norris.  Click on his nose to check out my resume</p>
         </div>
         <div className='two'>
           <a href='http://roadtoregionals.dannyshenker.surge.sh/'><div className='img' /></a>
